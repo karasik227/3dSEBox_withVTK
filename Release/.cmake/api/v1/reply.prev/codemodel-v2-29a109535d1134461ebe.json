@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-094e700792ba281f780d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "3dSEBox_withVTK",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3dSEBox_withVTK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dSEBox_withVTK-Release-643d928c714d9e902283.json",
+					"name" : "3dSEBox_withVTK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3dSEBox_withVTK_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dSEBox_withVTK_autogen-Release-f0298b7410efa9fb9ccd.json",
+					"name" : "3dSEBox_withVTK_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3dSEBox_withVTK_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dSEBox_withVTK_autogen_timestamp_deps-Release-9255c874ed88324d4012.json",
+					"name" : "3dSEBox_withVTK_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "G:/Projects/3dSEBox_withVTK/Release",
+		"source" : "G:/Projects/3dSEBox_withVTK"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

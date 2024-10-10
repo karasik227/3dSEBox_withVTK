@@ -1,0 +1,19 @@
+# ninja log v5
+32	219	7502761620000000	3dSEBox_withVTK_autogen/timestamp	1a11489c2f579c7e
+32	219	7502761620000000	G:/Projects/3dSEBox_withVTK/Release/3dSEBox_withVTK_autogen/mocs_compilation.cpp	1a11489c2f579c7e
+32	219	7502761620000000	3dSEBox_withVTK_autogen/mocs_compilation.cpp	1a11489c2f579c7e
+32	219	7502761620000000	G:/Projects/3dSEBox_withVTK/Release/3dSEBox_withVTK_autogen/timestamp	1a11489c2f579c7e
+40	2057	7502761740000000	build.ninja	5472f002fec6aaf
+936	2267	7502753020000000	CMakeFiles/3dSEBox_withVTK.dir/3dSEBox_withVTK_autogen/mocs_compilation.cpp.obj	9f6c5901eee7b707
+938	2282	7502753020000000	CMakeFiles/3dSEBox_withVTK.dir/main.cpp.obj	db974da7b0844a78
+263	3765	7502761660000000	CMakeFiles/3dSEBox_withVTK.dir/mainwindow.cpp.obj	818536f641f716cc
+18	35	0	CMakeFiles/clean.additional	321391b2684b2653
+35	41	0	clean	9c5b38957eff3a0c
+3006	3267	7502761480000000	3dSEBox_withVTK.exe	db3f1b0e629a76d
+56	2672	7502761740000000	build.ninja	5472f002fec6aaf
+70	271	7502761760000000	3dSEBox_withVTK_autogen/timestamp	1a11489c2f579c7e
+70	271	7502761760000000	3dSEBox_withVTK_autogen/mocs_compilation.cpp	1a11489c2f579c7e
+70	271	7502761760000000	G:/Projects/3dSEBox_withVTK/Release/3dSEBox_withVTK_autogen/timestamp	1a11489c2f579c7e
+70	271	7502761760000000	G:/Projects/3dSEBox_withVTK/Release/3dSEBox_withVTK_autogen/mocs_compilation.cpp	1a11489c2f579c7e
+284	3790	7502761780000000	CMakeFiles/3dSEBox_withVTK.dir/mainwindow.cpp.obj	818536f641f716cc
+3801	4190	7502761800000000	3dSEBox_withVTK.exe	db3f1b0e629a76d
