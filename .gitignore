@@ -3,3 +3,7 @@
 *.dll
 *.prev
 *.cmake
+*.ninja
+CMakeCache.txt
+*.user
+.ninja_deps
