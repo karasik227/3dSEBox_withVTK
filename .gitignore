@@ -6,4 +6,6 @@
 *.ninja
 CMakeCache.txt
 *.user
-.ninja_deps
+*.qtc_clangd
+*.idx
+*.log
