@@ -12,11 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - id: Qt
+      uses: jurplel/install-qt-action@v3
     - uses: actions/checkout@v1
-    - name: Install Qt
-      uses: jurplel/install-qt-action@v4
-      with:
-        version: '6.6.0'
-
     - name: make
       run: make -f /dev/null main
