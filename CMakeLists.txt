@@ -12,6 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(Qt6 REQUIRED COMPONENTS OpenGLWidgets)
+find_package(Qt6 REQUIRED COMPONENTS Charts)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -63,11 +64,12 @@ else()
 endif()
 
 target_link_libraries(3dSEBox_withVTK PRIVATE
-    "G:/Projects/VTK-9.3.0-install-no-CASCADE/lib/vtkGUISupportQt-9.3.lib"
-    "G:/Projects/VTK-9.3.0-install-no-CASCADE/lib/vtkInteractionWidgets-9.3.lib"
-    "G:/Projects/VTK-9.3.0-install-no-CASCADE/lib/vtkRenderingAnnotation-9.3.lib"
+    "G:/VTK-9.3.0-install-no-CASCADE/lib/vtkGUISupportQt-9.3.lib"
+    "G:/VTK-9.3.0-install-no-CASCADE/lib/vtkInteractionWidgets-9.3.lib"
+    "G:/VTK-9.3.0-install-no-CASCADE/lib/vtkRenderingAnnotation-9.3.lib"
     Qt6::Core
     Qt6::Gui
+    Qt6::Charts
     Qt6::Widgets
     Qt6::OpenGL
     Qt6::OpenGLWidgets

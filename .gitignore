@@ -9,3 +9,4 @@ CMakeCache.txt
 *.qtc_clangd
 *.idx
 *.log
+build/
