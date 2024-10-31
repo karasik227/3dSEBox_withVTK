@@ -21,7 +21,7 @@ set(PROJECT_SOURCES
         mainwindow.ui
 )
 
-set(VTK_DIR "../VTK-9.3.0-install-no-CASCADE/lib/cmake/vtk-9.3")
+set(VTK_DIR "E:/VTK-9.3.0-install-no-CASCADE/lib/cmake/vtk-9.3")
 
 find_package(VTK COMPONENTS
   CommonColor
@@ -44,6 +44,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(3dSEBox_withVTK
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        robcalculation.h
+        robcalculation.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET 3dSEBox_withVTK APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -64,9 +66,9 @@ else()
 endif()
 
 target_link_libraries(3dSEBox_withVTK PRIVATE
-    "G:/VTK-9.3.0-install-no-CASCADE/lib/vtkGUISupportQt-9.3.lib"
-    "G:/VTK-9.3.0-install-no-CASCADE/lib/vtkInteractionWidgets-9.3.lib"
-    "G:/VTK-9.3.0-install-no-CASCADE/lib/vtkRenderingAnnotation-9.3.lib"
+    "E:/VTK-9.3.0-install-no-CASCADE/lib/vtkGUISupportQt-9.3.lib"
+    "E:/VTK-9.3.0-install-no-CASCADE/lib/vtkInteractionWidgets-9.3.lib"
+    "E:/VTK-9.3.0-install-no-CASCADE/lib/vtkRenderingAnnotation-9.3.lib"
     Qt6::Core
     Qt6::Gui
     Qt6::Charts
