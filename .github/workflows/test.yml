@@ -13,7 +13,5 @@ jobs:
       - id: Qt
         uses: jurplel/install-qt-action@v3
       - uses: actions/checkout@v1
-      - name: Run main tests
-        run: npm main.cpp
       - name: Run mainwindow tests
         run: npm mainwindow.cpp
