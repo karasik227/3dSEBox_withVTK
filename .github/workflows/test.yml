@@ -1,0 +1,20 @@
+name: Run tests
+
+on:
+  push:
+    branches: ['main']
+
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - id: Qt
+        uses: jurplel/install-qt-action@v3
+      - uses: actions/checkout@v1
+      - name: Run main tests
+        run: npm main
+      - name: Run mainwindow tests
+        run: npm mainwindow
