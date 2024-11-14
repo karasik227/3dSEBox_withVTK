@@ -13,5 +13,7 @@ jobs:
       - id: Qt
         uses: jurplel/install-qt-action@v3
       - uses: actions/checkout@v1
+      - name: package
+        run: npm init
       - name: Run tests
         run: npm test
